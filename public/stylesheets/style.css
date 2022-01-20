@@ -1,0 +1,66 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.message_list>.message{
+  margin:1rem;
+}
+li{
+  list-style-type: none;
+}
+.new-message_form{
+  display:flex;
+  flex-direction: column;
+
+}
+form{
+  margin:0 25%;
+  padding:2rem;
+  background-color: rgb(255, 173, 186);
+  border-radius: 5px;
+}
+.form-group{
+  display: flex;
+  margin:.5rem 0;
+}
+.form-group>label{
+  width: 20%;
+  text-align: left;
+  color:white;
+  text-transform: uppercase;
+  font-size: .9rem;
+  font-weight: bold;
+}
+.form-group >input, .form-group>textarea{
+  padding:.2rem;
+  width:100%;
+  border: 2px solid rgb(212, 241, 212);
+  border-radius:5px;
+}
+.form-group>.submit-btn{
+  width:15%;
+  background-color: white;
+  text-transform: uppercase;
+  color:rgb(245, 151, 167);
+  font-weight:bold;
+  font-size: .8rem;
+  cursor:pointer;
+}
+.submit_form-group{
+  justify-content: right;
+}
+.new-message_btn{
+  padding:.5rem;
+  border-radius: 5px;
+  background-color: rgb(255, 173, 186);
+  text-decoration: none;
+  text-transform: uppercase;
+  color:white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: .5;
+}
